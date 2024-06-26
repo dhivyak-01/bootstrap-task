@@ -1,7 +1,13 @@
-h2.text-primary , .btn , h5 , h1 , .fw-bold.fs-5.mb-3 , .aboutus , .welcomtoelearning , .categories , .Courses , .marketing , .editing , .desing , .page-3-courses , .popularcourses-btn-1 , .popularcourses-btn-2 , .amount , .desing-and-development , .instructors , .instructer-name , .testimonial , .copyright-heading
+h2.text-primary , .btn , h5 , h1 , .fw-bold.fs-5.mb-3 , btn.btn-primary.rounded-0.border-0 , .btn.page1btn.rounded-0.border-0 , .aboutus , .welcomtoelearning , .categories , .Courses , .marketing , .editing , .desing , .page-3-courses , .popularcourses-btn-1 , .popularcourses-btn-2 , .amount , .desing-and-development , .instructors , .instructer-name , .testimonial , .copyright-heading
 {
     font-family: "Nunito", sans-serif;
-    font-style: normal;
+    font-style: normal;  
+}
+.btn.page1btn.rounded-0.border-0
+{
+    background-color: #f0fbfc;
+    font-weight: 600;
+    color: #000;
 }
 h2.text-primary 
 {
@@ -34,31 +40,13 @@ h1.text-white.display-3
 {
     font-weight: 800;
 }
-.btn.d-flex 
+.btn.px-lg-5.d-lg-block
 {
     width: 19.1% !important;
 }
-.btn.d-flex , .btn-primary:hover , .prev:hover , .next:hover , .btn.btn-primary , .readmore , .popularcourses-btn-1 , .popularcourses-btn-2 , .media-icon
+.btn.px-lg-5.d-lg-block , .btn-primary:hover , .prev:hover , .next:hover , .btn.btn-primary , .readmore , .popularcourses-btn-1 , .popularcourses-btn-2 , .media-icon
 {
     background-color: #06BBCC;
-}
-.img-fluid.carousel-image {
-    max-width: 100%;
-    height: 760px;
-    object-fit: cover;
-}
-.btn.btn-primary , .btn.bg-white
-{
-    height: 60px !important;
-    padding-top: 19px;
-}
-.btn.bg-white
-{
-    width: 22.2% !important; 
-}
-.btn.btn-primary
-{
-    width: 24% !important;
 }
 .nextprev
 {
@@ -149,29 +137,12 @@ h1.text-white.display-3
 /*========================= media query =======================*/
 @media screen and (max-width: 2560px)
 {
-    /* .btn.d-flex
+    /* .btn.px-lg-5.d-lg-block
     {
         width: 8.7% !important;
     } */
     svg.bookicon {
         margin: -9px 5px 0px -2px;
-    }
-    /* .img-fluid.carousel-image
-    {
-       max-width: 100%;
-       height: 1442px;
-       object-fit: cover;
-    } */
-    .btn.btn-primary , .btn.bg-white 
-    {
-       height: 61px;
-       padding-top: 18px;
-    }
-    .btn.btn-primary {
-        width: 20.5%;
-    }
-    .btn.bg-white{
-        width:19.4%;
     }
     .nextprev
     {
@@ -180,22 +151,10 @@ h1.text-white.display-3
 } 
 @media screen and (max-width: 1326px)
 {
-    .btn.d-flex
+    .btn.px-lg-5.d-lg-block
      {
         width: 19.6% !important;
     } 
-    .img-fluid.carousel-image
-    {
-       max-width: 100%;
-       height: 746px !important;
-       object-fit: cover;
-    }
-    .btn.btn-primary {
-        width: 24% !important;
-    }
-    .btn.bg-white{
-        width:22.4% !important;
-    }
 }  
 @media screen and (max-width: 1024px)
 {
@@ -207,15 +166,9 @@ h1.text-white.display-3
     h2.text-primary {
         padding-top: 14px;
     }
-    .btn.d-flex
+    .btn.px-lg-5.d-lg-block
     {
         width: 27.7% !important;
-    }
-    .btn.btn-primary {
-        width: 28.7% !important;
-    }
-    .btn.bg-white{
-        width:26.4% !important;
     }
     .nextprev
     {
@@ -231,17 +184,10 @@ h1.text-white.display-3
     h2.text-primary {
         padding-top: 16px;
     }
-    img-fluid.carousel-image
+    .d-block.w-100
     {
-       max-width: 100%;
-       height: 499px;
-       object-fit: cover;
-    }
-    .btn.btn-primary {
-        width: 30.7%;
-    }
-    .btn.bg-white{
-        width:28.4%;
+        height: 500px;
+        object-fit: cover;
     }
     .nextprev
     {
@@ -258,26 +204,9 @@ h1.text-white.display-3
     h2.text-primary {
         padding-top: 18px;
     }
-    .btn.btn-primary , .btn.bg-white 
-    {
-       height: 40px;
-       padding-top: 9px;
-    }
-    .btn.btn-primary {
-        width: 26.1%;
-    }
-    .btn.bg-white{
-        width:23%;
-    }
 }
 @media screen and (max-width: 375px)
 {
-    .btn.btn-primary {
-        width: 30%;
-    }
-    .btn.bg-white{
-        width:26%;
-    }
 }
 @media screen and (max-width: 320px)
 {
@@ -286,16 +215,6 @@ h1.text-white.display-3
         height: 24px;
         margin: -7px 9px 0px -1px;
     }
-    .carousel-inner
-    { 
-       height: 762px;
-    } 
-    .btn.btn-primary {
-        width: 35.6%;
-    }
-    .btn.bg-white{
-        width:31%;
-    } 
     .nextprev
     {
         top: 26.1%;
