@@ -1,4 +1,4 @@
-h2.text-primary , .btn , h5 , h1 , .fw-bold.fs-5.mb-3 , btn.btn-primary.rounded-0.border-0 , .btn.page1btn.rounded-0.border-0 , .aboutus , .welcomtoelearning , .categories , .Courses , .marketing , .editing , .desing , .page-3-courses , .popularcourses-btn-1 , .popularcourses-btn-2 , .amount , .desing-and-development , .instructors , .instructer-name , .testimonial , .copyright-heading
+h2.text-primary , .btn , h5 , h1 , .fw-bold.fs-5.mb-3 , .btn.btn-primary.rounded-0.border-0 , .btn.page1btn.rounded-0.border-0 , .aboutus , .welcomtoelearning , .categories , .Courses , .marketing , .editing , .desing , .page-3-courses , .popularcourses-btn-1 , .popularcourses-btn-2 , .amount , .desing-and-development , .instructors , .instructer-name , .testimonial , .copyright-heading
 {
     font-family: "Nunito", sans-serif;
     font-style: normal;  
@@ -132,7 +132,7 @@ h1.text-white.display-3
 {
     text-align: left;
 }
-/*=====================================page 3 strat=================*/
+/*=====================================testimonial carousel=================*/
 
 /*========================= media query =======================*/
 @media screen and (max-width: 2560px)
